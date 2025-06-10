@@ -138,7 +138,7 @@ const PricingSection = () => {
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
                 <span>Previsão de gastos com IA <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
-              <<li className="flex items-start">
+              <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
                 <span>Planejamento de fim de mês <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
