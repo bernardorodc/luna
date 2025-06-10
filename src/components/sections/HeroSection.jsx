@@ -73,10 +73,10 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#planos" className="btn-gradient text-center flex items-center justify-center gap-2">
-                <span className="text-lg">🎁</span> Começar Agora
+                Começar Agora
               </a>
             </div>
-            <p className="text-sm text-primary mt-2 font-medium">Oferta por tempo limitado!</p>
+
           </motion.div>
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
