@@ -44,16 +44,16 @@ const PricingSection = () => {
             variants={fadeInUp}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <h3 className="text-2xl font-bold mb-2">Essencial</h3>
+            <h3 className="text-2xl font-bold mb-2">Mensal</h3>
             <div className="flex items-end mb-6">
-              <span className="text-4xl font-bold text-gray-900">R$0</span>
+              <span className="text-4xl font-bold text-gray-900">R$29,90</span>
               <span className="text-gray-500 ml-2">para sempre</span>
             </div>
             
             <ul className="space-y-4 mb-8">
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                <span>Fale com a Tamy por WhatsApp</span>
+                <span>Fale com a Luna por WhatsApp</span>
               </li>
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
@@ -61,7 +61,7 @@ const PricingSection = () => {
               </li>
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                <span>Importação de extrato bancário - PDF e CSV</span>
+                <span>Importação de extrato bancário - PDF</span>
               </li>
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
@@ -75,21 +75,21 @@ const PricingSection = () => {
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
                 <span>Dicas financeiras personalizadas</span>
               </li>
-              <li className="flex items-start text-gray-400">
-                <Clock className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" />
-                <span>Metas financeiras personalizadas <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
+              <li className="flex items-start">
+                <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
+                <span>Metas financeiras personalizadas</span>
               </li>
-              <li className="flex items-start text-gray-400">
-                <Clock className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" />
-                <span>Importação de faturas de cartão <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
+              <li className="flex items-start">
+                <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
+                <span>Importação de faturas de cartão</span>
               </li>
-              <li className="flex items-start text-gray-400">
-                <Clock className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" />
-                <span>Relatórios semanais automáticos <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
+              <li className="flex items-start">
+                <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
+                <span>Relatórios semanais automático</span>
               </li>
-              <li className="flex items-start text-gray-400">
-                <Clock className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" />
-                <span>Relatórios com gráficos <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
+              <li className="flex items-start">
+                <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
+                <span>Relatórios com gráficos</span>
               </li>
             </ul>
             
@@ -115,9 +115,9 @@ const PricingSection = () => {
               </span>
             </div>
             
-            <h3 className="text-2xl font-bold mb-2">Premium</h3>
+            <h3 className="text-2xl font-bold mb-2">Anual</h3>
             <div className="flex items-end mb-6">
-              <span className="text-4xl font-bold text-gray-900">R$29,90</span>
+              <span className="text-4xl font-bold text-gray-900">R$299,90</span>
               <span className="text-gray-500 ml-2">/mês</span>
             </div>
             
@@ -128,22 +128,22 @@ const PricingSection = () => {
             <ul className="space-y-4 mb-8">
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                <span>Todas as funcionalidades do plano Free</span>
+                <span>Todas as funcionalidades do plano Mensal</span>
               </li>
-              <li className="flex items-start text-gray-400">
-                <Clock className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" />
+              <li className="flex items-start">
+                <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
                 <span>Sincronização automática com bancos <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
-              <li className="flex items-start text-gray-400">
-                <Clock className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" />
+              <li className="flex items-start">
+                <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
                 <span>Previsão de gastos com IA <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
-              <li className="flex items-start text-gray-400">
-                <Clock className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" />
+              <<li className="flex items-start">
+                <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
                 <span>Planejamento de fim de mês <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
-              <li className="flex items-start text-gray-400">
-                <Clock className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" />
+              <li className="flex items-start">
+                <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
                 <span>Relatórios avançados personalizados <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
             </ul>
