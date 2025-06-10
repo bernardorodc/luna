@@ -17,7 +17,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          pnpm: true
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Add pnpm to PATH
+        run: echo "$(npm config get prefix)/pnpm" >> $GITHUB_PATH
 
       - name: Install dependencies
         run: pnpm install
