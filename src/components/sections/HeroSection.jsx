@@ -73,7 +73,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#planos" className="btn-gradient text-center flex items-center justify-center gap-2">
-                <span className="text-lg">🎁</span> GRÁTIS por tempo limitado • Comece Agora
+                <span className="text-lg">🎁</span> Começar Agora
               </a>
             </div>
             <p className="text-sm text-primary mt-2 font-medium">Oferta por tempo limitado!</p>
