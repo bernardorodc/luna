@@ -117,12 +117,12 @@ const PricingSection = () => {
             
             <h3 className="text-2xl font-bold mb-2">Anual</h3>
             <div className="flex items-end mb-6">
-              <span className="text-4xl font-bold text-gray-900">R$239,90</span>
+              <span className="text-4xl font-bold text-gray-900">R$299,90</span>
               <span className="text-gray-500 ml-2">/mês</span>
             </div>
             
             <div className="bg-yellow-100 text-yellow-800 text-sm font-medium px-4 py-2 rounded mb-6">
-              Economize R$118,90 Com o Plano Anual!
+              EM BREVE
             </div>
             
             <ul className="space-y-4 mb-8">
@@ -132,25 +132,25 @@ const PricingSection = () => {
               </li>
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                <span>Sincronização automática com bancos <span
+                <span>Sincronização automática com bancos <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                <span>Previsão de gastos com IA <span
+                <span>Previsão de gastos com IA <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                <span>Planejamento de fim de mês <span
+                <span>Planejamento de fim de mês <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
               <li className="flex items-start">
                 <Check className="w-5 h-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                <span>Relatórios avançados personalizados <span
+                <span>Relatórios avançados personalizados <span className="text-xs bg-gray-200 px-2 py-0.5 rounded ml-1">EM BREVE</span></span>
               </li>
             </ul>
             
             <div className="mt-auto">
               <button disabled className="btn-gradient w-full block text-center opacity-70 cursor-not-allowed">
-                Começar Agora
+                Em Breve
               </button>
             </div>
           </motion.div>
